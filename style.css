@@ -7,6 +7,7 @@ body {
 }
 .font-primary{
     color: blue;
+    text-align: center;
 }
 .title-icon {
     font-size: 20px;
@@ -58,19 +59,37 @@ ABOUT
     margin-top: 15px;
     font-size: 16px; 
 }
-#projects{
-    margin:60px;
-    width:80%;
-}
-#projects h2{
-   text-align:center; 
-}
-#projects .card img{
-    width:100%;
-}
+/****Project ******/
 #projects .card {
     font-size: 20px;
     font-weight: bold;
     color:cornflowerblue;
     text-align: center;
+}
+
+.projects-Twitter {
+    display: flex;
+    width:100%;
+}
+.projects-Twitter .card {
+    width:50%;
+
+}
+.projects-Twitter .card-body{
+    width: 50%;
+}
+
+#about .icon-item img{ 
+     width: 10%;
+     
+}
+.Netflix-project {
+    display: flex;
+    width: 100%;
+}
+.Netflix-project .card{
+    width: 50%;
+}
+.Netflix-project .card-body{
+    width:50%;
 }
